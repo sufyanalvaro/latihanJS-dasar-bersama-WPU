@@ -4,6 +4,7 @@ function tambah() {
   for (var i = 0; i < arguments.length; i += 1) {
     hasil += arguments[i];
   }
+
   return hasil;
 }
 

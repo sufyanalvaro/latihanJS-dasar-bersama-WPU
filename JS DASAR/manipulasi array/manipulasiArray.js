@@ -51,7 +51,7 @@
 // arr.shift();
 // console.log(arr.join("  "));
 
-// 6. splice
+// 6. splice => menyambung / menambal. menyisipkan sebuah elemen di tengah2 menggunakan splice
 // splice (indexAwal, mauDihapusBerapa, elemenBaru1, elemenBaru2, ...)
 // var arr = ["Sandhika", "Galih", "Nofa"];
 
@@ -59,7 +59,7 @@
 // console.log(arr.join("  "));
 // dibaca, index awalnya 2, berarti di posisi nofa. yang dihapus 0 brarti ga ada yg dihapus. lalu elemen baru nya doddy dan fitri.
 
-// 7. slice => mengiris sebuah array, menjadi array yang baru
+// 7. slice => mengiris sebuah array, mengambil beberapa bagian pada array menjadi array yang baru
 // slice (awal, akhrir)
 arr = ["Sandhika", "Galih", "Nofa", "Doddy", "Fitri"];
 
@@ -68,3 +68,4 @@ console.log(arr2.join("  "));
 // dibaca, membuat array baru di arr2, mengambil index 1 sampai 2 (1,3 itu, tiga nya gak di ambil)
 
 // slice dan splice gampang2 susah, harus di ulang2 biar paham
+// 8. forEach & map di file js yg lain. kebanyakan nanti pusing sendiri
